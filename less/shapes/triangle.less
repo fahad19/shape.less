@@ -1,0 +1,51 @@
+.shape-triangle-up(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-left: @width/2 solid transparent;
+  border-right: @width/2 solid transparent;
+  border-bottom: @width solid @color;
+}
+
+.shape-triangle-down(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-left: @width/2 solid transparent;
+  border-right: @width/2 solid transparent;
+  border-top: @width solid @color;
+}
+
+.shape-triangle-left(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-top: @width/2 solid transparent;
+  border-right: @width solid @color;
+  border-bottom: @width/2 solid transparent;
+}
+
+.shape-triangle-right(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-top: @width/2 solid transparent;
+  border-left: @width solid @color;
+  border-bottom: @width/2 solid transparent;
+}
+
+.shape-triangle-top-left(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-top: @width solid @color;
+  border-right: @width solid transparent;
+}
+
+.shape-triangle-top-right(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-top: @width solid @color;
+  border-left: @width solid transparent;
+}
+
+.shape-triangle-bottom-left(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-bottom: @width solid @color;
+  border-right: @width solid transparent;
+}
+
+.shape-triangle-bottom-right(@width, @color: @shape-color) {
+  .shape-square(0);
+  border-bottom: @width solid @color;
+  border-left: @width solid transparent;
+}

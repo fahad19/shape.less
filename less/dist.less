@@ -1,0 +1,77 @@
+//
+// Variables
+// --------------------------------------------------
+@import "variables.less";
+
+
+//
+// Shapes
+// --------------------------------------------------
+@import "shape.less";
+
+// Rectangle
+// -------------------------
+
+.shaped-rectangle {
+  .shape-rectangle(100px, 50px);
+}
+
+// Square
+// -------------------------
+
+.shaped-square {
+  .shape-square(50px);
+}
+
+// Circle
+// -------------------------
+
+.shaped-circle {
+  .shape-circle(50px);
+}
+
+// Oval
+// -------------------------
+
+.shaped-oval {
+  .shape-oval(100px, 50px);
+}
+
+// Triangle
+// -------------------------
+
+.shaped-triangle-up {
+  .shape-triangle-up(50px);
+}
+
+.shaped-triangle-down {
+  .shape-triangle-down(50px);
+}
+
+.shaped-triangle-left {
+  .shape-triangle-left(50px);
+}
+
+.shaped-triangle-right {
+  .shape-triangle-right(50px);
+}
+
+.shaped-triangle-top-left {
+  .shape-triangle-top-left(50px);
+}
+
+.shaped-triangle-top-right {
+  .shape-triangle-top-right(50px);
+}
+
+.shaped-triangle-bottom-left {
+  .shape-triangle-bottom-left(50px);
+}
+
+.shaped-triangle-bottom-right {
+  .shape-triangle-bottom-right(50px);
+}
+
+div[class^="shaped-"]:not([class^="shaped-triangle-"]) {
+  background-color: @shape-color;
+}

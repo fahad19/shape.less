@@ -1,0 +1,14 @@
+h3 {
+  margin-top: 15px;
+}
+h3 a {
+  color: #494949;
+  font-weight: bold;
+  border-top: 1px solid #eee;
+  display: block;
+  padding-top: 15px;
+}
+
+.example {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Shape.LESS",
+  "name": "shape.less",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-less": "0.5.x",
+    "grunt-contrib-watch": "0.4.x"
+  }
+}

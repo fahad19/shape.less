@@ -1,0 +1,73 @@
+.shaped-rectangle {
+  width: 100px;
+  height: 50px;
+}
+.shaped-square {
+  width: 50px;
+  height: 50px;
+}
+.shaped-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.shaped-oval {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+}
+.shaped-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #3399cc;
+}
+.shaped-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #3399cc;
+}
+.shaped-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #3399cc;
+  border-bottom: 25px solid transparent;
+}
+.shaped-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #3399cc;
+  border-bottom: 25px solid transparent;
+}
+.shaped-triangle-top-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #3399cc;
+  border-right: 50px solid transparent;
+}
+.shaped-triangle-top-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #3399cc;
+  border-left: 50px solid transparent;
+}
+.shaped-triangle-bottom-left {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #3399cc;
+  border-right: 50px solid transparent;
+}
+.shaped-triangle-bottom-right {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #3399cc;
+  border-left: 50px solid transparent;
+}
+div[class^="shaped-"]:not([class^="shaped-triangle-"]) {
+  background-color: #3399cc;
+}

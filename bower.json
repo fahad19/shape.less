@@ -1,0 +1,7 @@
+{
+  "name": "shape.less",
+  "version": "0.1.0",
+  "main": "less/shape.less",
+  "dependencies": {
+  }
+}

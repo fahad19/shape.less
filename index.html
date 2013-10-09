@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Shape.LESS - Collection of LESS mixins for various shapes</title>
+
+    <link rel="stylesheet" href="./docs/css/styles.css">
+    <link rel="stylesheet" href="./docs/css/pygment_trac.css">
+    <link rel="stylesheet" href="./docs/css/demo.css">
+    <link rel="stylesheet" href="./dist/shapes.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Shape.LESS</h1>
+        <p>Collection of LESS mixins for various shapes</p>
+        <p class="view"><a href="http://github.com/fahad19/shape.less">View the Project on GitHub <small>fahad19/shape.less</small></a></p>
+        <ul>
+          <li><a href="https://github.com/fahad19/shape.less/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/fahad19/shape.less/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/fahad19/shape.less">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+
+<section>
+
+<p>
+  Shape.LESS is a collection of mixins for CSS shapes that we often use in web applications.
+  The aim of this project is to reduce the repitive tasks of a developer required to create shapes using CSS.
+</p>
+
+
+
+<h2>Installation</h2>
+
+<p>You can download it with Bower:</p>
+
+<pre><code>$ bower install shape.less</code></pre>
+
+
+<h2>Usage</h2>
+
+<p>Import the less/shape.less file in your own LESS files, and start using it right away:</p>
+
+<pre><code>@import "path-to-shape.less/less/shape.less";
+
+.my-square {
+  .shape-square(100px);
+}</code></pre>
+
+<h2>Examples</h2>
+
+<!-- Rectangle -->
+<h3 id="rectangle"><a href="#rectangle">Rectangle</a></h3>
+
+<div class="example">
+  <div class="shaped-rectangle"></div>
+</div>
+
+<pre><code>.rectangle {
+  .shape-rectangle(100px, 50px);
+}</code></pre>
+
+
+
+<!-- Square -->
+<h3 id="square"><a href="#square">Square</a></h3>
+
+<div class="example">
+  <div class="shaped-square"></div>
+</div>
+
+<pre><code>.square {
+  .shape-square(50px, 50px);
+}</code></pre>
+
+
+
+<!-- Circle -->
+<h3 id="circle"><a href="#circle">Circle</a></h3>
+
+<div class="example">
+  <div class="shaped-circle"></div>
+</div>
+
+<pre><code>.circle {
+  .shape-circle(50px);
+}</code></pre>
+
+
+
+
+<!-- Oval -->
+<h3 id="oval"><a href="#oval">Oval</a></h3>
+
+<div class="example">
+  <div class="shaped-oval"></div>
+</div>
+
+<pre><code>.circle {
+  .shape-oval(50px);
+}</code></pre>
+
+
+
+<!-- Triangle -->
+<h3 id="triangle"><a href="#triangle">Triangle</a></h3>
+
+
+<h4>Up</h4>
+
+<div class="example">
+  <div class="shaped-triangle-up"></div>
+</div>
+
+<pre><code>.triangle-up {
+  .triangle-up(50px);
+}</code></pre>
+
+
+
+<h4>Down</h4>
+
+<div class="example">
+  <div class="shaped-triangle-down"></div>
+</div>
+
+<pre><code>.triangle-down {
+  .triangle-down(50px);
+}</code></pre>
+
+
+
+<h4>Left</h4>
+
+<div class="example">
+  <div class="shaped-triangle-left"></div>
+</div>
+
+<pre><code>.triangle-left {
+  .triangle-left(50px);
+}</code></pre>
+
+
+
+<h4>Right</h4>
+
+<div class="example">
+  <div class="shaped-triangle-right"></div>
+</div>
+
+<pre><code>.triangle-right {
+  .triangle-right(50px);
+}</code></pre>
+
+
+
+<h4>Top left</h4>
+
+<div class="example">
+  <div class="shaped-triangle-top-left"></div>
+</div>
+
+<pre><code>.triangle-top-left {
+  .triangle-top-left(50px);
+}</code></pre>
+
+
+
+<h4>Top right</h4>
+
+<div class="example">
+  <div class="shaped-triangle-top-right"></div>
+</div>
+
+<pre><code>.triangle-top-right {
+  .triangle-top-right(50px);
+}</code></pre>
+
+
+
+<h4>Bottom left</h4>
+
+<div class="example">
+  <div class="shaped-triangle-bottom-left"></div>
+</div>
+
+<pre><code>.triangle-bottom-left {
+  .triangle-bottom-left(50px);
+}</code></pre>
+
+
+
+<h4>Bottom right</h4>
+
+<div class="example">
+  <div class="shaped-triangle-bottom-right"></div>
+</div>
+
+<pre><code>.triangle-bottom-right {
+  .triangle-bottom-right(50px);
+}</code></pre>
+
+<h2>Thanks</h2>
+
+<p>
+  Special thanks to Chris Coyier for his <a href="http://css-tricks.com/examples/ShapesOfCSS/">Shapes of CSS</a> article.
+</p>
+
+</section>
+
+      <footer>
+        <p>Maintained by <a href="http://github.com/fahad19">Fahad Ibnay Heylaal</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="./docs/js/scale.fix.js"></script>
+  </body>
+</html>
