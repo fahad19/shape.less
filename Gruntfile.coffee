@@ -14,8 +14,8 @@ module.exports = (grunt) ->
         files: ['less/**/*.less']
         tasks: ['build']
 
-    grunt.loadNpmTasks 'grunt-contrib-less'
-    grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.loadNpmTasks 'grunt-contrib-less'
+  grunt.loadNpmTasks 'grunt-contrib-watch'
 
-    grunt.registerTask 'build', ['less:shape']
-    grunt.registerTask 'default', 'build'
+  grunt.registerTask 'build', ['less:shape']
+  grunt.registerTask 'default', 'build'
